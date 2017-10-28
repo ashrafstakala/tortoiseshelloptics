@@ -59,3 +59,30 @@ header {
 header .flex {
   justify-content: flex-end;
 }
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+.service {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  width: 5rem;
+  height: 8rem;
+}
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+.service img.paper-icon {
+  width: 3rem;
+}
+img {
+  border-style: none;
+}
+}
+div {
+  display: block;
+}
