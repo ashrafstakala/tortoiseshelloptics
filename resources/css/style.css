@@ -126,6 +126,9 @@ footer img {
   nav.container {
     max-width: 100%;
   }
+  .container {
+    max-width: 100%;
+  }
   header {
     padding-top: 0;
     height: 22rem;
@@ -139,8 +142,61 @@ footer img {
     font-size: 1.33rem;
   }
   footer.container {
-    margin:auto;
+    margin: auto;
     width: auto;
   }
 }
 /* Mobile Design */
+@media only screen and (max-width: 700px) {
+  .menu ul {
+    display: none;
+  }
+  .menu ul.mobile-menu {
+    display: block;
+  }
+  .main-banner {
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 560px) {
+  header {
+    background-position: 20%
+  }
+  header div span {
+    display: none;
+  }
+  .main-banner {
+    width: 100%;
+    padding: 0 1rem;
+    text-align: center;
+    margin: 12rem auto 0 auto;
+  }
+  .main-banner h1 {
+    font-size: 1rem;
+  }
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+  .service {
+    height: auto;
+    margin: 0.77rem;
+    font-size: 0.77rem;
+  }
+  .info {
+    width: auto;
+  }
+  .info p {
+    padding: 1rem;
+    font-size: 0.77rem;
+  }
+  .info .title {
+    max-width: 100%;
+    text-align: center;
+  }
+  .footer div {
+    display: none;
+  }
+}
